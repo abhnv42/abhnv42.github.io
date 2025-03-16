@@ -44,7 +44,7 @@ interface Site {
 
 export const site: Site = {
   baseUrl: 'https://abhnv42.github.io',
-  reciviUrl: 'https://raw.githubusercontent.com/dhruvkb/recivi/main/recivi.json',
+  reciviUrl: 'https://raw.githubusercontent.com/abhnv42/abhnv42.github.io/recivi-portfolio/src/stores/resume-data.json',
   fediverse: '@dhruvkb@mastodon.social',
   title: '@dhruvkb',
   birthYear: 1997,
