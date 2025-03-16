@@ -43,7 +43,7 @@ interface Site {
 }
 
 export const site: Site = {
-  baseUrl: 'https://dhruvkb.dev',
+  baseUrl: 'https://abhnv42.github.io',
   reciviUrl: 'https://raw.githubusercontent.com/dhruvkb/recivi/main/recivi.json',
   fediverse: '@dhruvkb@mastodon.social',
   title: '@dhruvkb',
