@@ -44,7 +44,7 @@ interface Site {
 
 export const site: Site = {
   baseUrl: 'https://abhnv42.github.io',
-  reciviUrl: 'https://raw.githubusercontent.com/abhnv42/abhnv42.github.io/recivi-portfolio/src/stores/resume-data.json',
+  reciviUrl: 'https://raw.githubusercontent.com/abhnv42/abhnv42.github.io/refs/heads/master/recivi-portfolio/src/stores/resume-data.json',
   title: '@abhnv42',
   birthYear: 1993,
   hobbyAge: 15,
