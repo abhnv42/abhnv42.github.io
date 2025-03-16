@@ -44,9 +44,7 @@ interface Site {
 
 export const site: Site = {
   baseUrl: 'https://dhruvkb.dev',
-  reciviUrl: import.meta.env.DEV
-    ? 'file:///Users/dhruvkb/Developer/personal/recivi/recivi.json'
-    : 'https://raw.githubusercontent.com/dhruvkb/recivi/main/recivi.json',
+  reciviUrl: 'https://raw.githubusercontent.com/dhruvkb/recivi/main/recivi.json',
   fediverse: '@dhruvkb@mastodon.social',
   title: '@dhruvkb',
   birthYear: 1997,
