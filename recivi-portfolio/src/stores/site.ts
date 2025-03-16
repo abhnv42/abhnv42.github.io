@@ -45,10 +45,9 @@ interface Site {
 export const site: Site = {
   baseUrl: 'https://abhnv42.github.io',
   reciviUrl: 'https://raw.githubusercontent.com/abhnv42/abhnv42.github.io/recivi-portfolio/src/stores/resume-data.json',
-  fediverse: '@dhruvkb@mastodon.social',
-  title: '@dhruvkb',
-  birthYear: 1997,
-  hobbyAge: 12,
-  jobAge: 23,
+  title: '@abhnv42',
+  birthYear: 1993,
+  hobbyAge: 15,
+  jobAge: 24,
   showCredit: true,
 }
