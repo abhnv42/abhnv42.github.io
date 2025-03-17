@@ -5,13 +5,6 @@
 interface Site {
   /** the final URL where the site is deployed, no trailing slash */
   baseUrl: string
-  /**
-   * the URL to the Récivi data file to populate the site
-   *
-   * This can be configured to either refer to a local JSON file (using the
-   * `file://` scheme) or a remote URL.
-   */
-  reciviUrl: string
   /** the creator ID that is used for author attribution in the Fediverse */
   fediverse?: string
   /** the title of the website
@@ -42,9 +35,9 @@ interface Site {
   showCredit?: boolean
 }
 
+// TODO: remove reciviUrl, it's not required because I'm importing data directly from file resume-data.json
 export const site: Site = {
   baseUrl: 'https://abhnv42.github.io',
-  reciviUrl: 'https://raw.githubusercontent.com/abhnv42/abhnv42.github.io/refs/heads/master/recivi-portfolio/src/stores/resume-data.json',
   title: '@abhnv42',
   birthYear: 1993,
   hobbyAge: 15,

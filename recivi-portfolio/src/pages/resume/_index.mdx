@@ -8,7 +8,7 @@ index: 2
 
 import Link from '@/components/Link.astro'
 
-import { recivi } from '@/stores/recivi'
+import recivi from '@/stores/resume-data.json'
 
 export const githubUrl = recivi.bio.profiles?.find(
   (profile) => profile.site.id === 'github' || profile.site.name === 'GitHub'

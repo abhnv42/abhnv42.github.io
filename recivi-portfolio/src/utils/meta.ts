@@ -1,4 +1,4 @@
-import { recivi } from '@/stores/recivi'
+import recivi from '@/stores/resume-data.json'
 import { site } from '@/stores/site'
 
 export interface RawMetadata {

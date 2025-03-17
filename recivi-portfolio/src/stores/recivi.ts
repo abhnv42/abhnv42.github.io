@@ -1,21 +1,10 @@
-import { readFileSync } from 'node:fs'
-
 import type { Resume } from '@recivi/schema'
+import data from '@/stores/resume-data.json'
 
 import type { Cert, Institute, Epic, Org, Project, Role } from '@/models/recivi'
-import { site } from '@/stores/site'
 
-async function loadRecivi() {
-  if (site.reciviUrl.startsWith('file://')) {
-    const text = readFileSync(site.reciviUrl.replace('file://', ''), 'utf-8')
-    return JSON.parse(text) as Resume
-  }
-
-  const res = await fetch(site.reciviUrl)
-  return (await res.json()) as Resume
-}
-
-export const recivi: Resume = await loadRecivi()
+// there must be a better way than this stringigy and parse
+export const recivi: Resume = JSON.parse(JSON.stringify(data)) as Resume;
 
 export const institutes: Institute[] =
   recivi.education?.map((rcvInstitute) => {
