@@ -26,9 +26,6 @@ export default defineConfig({
       },
     },
   },
-  devToolbar: {
-    enabled: false,
-  },
   integrations: [
     tailwind({ applyBaseStyles: false }),
     mdx(),
