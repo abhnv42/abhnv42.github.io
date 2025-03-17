@@ -1,1101 +1,1142 @@
 {
-    "$schema": "https://recivi.pages.dev/schemas/recivi-resume.json",
-    "bio": {
-      "name": "Abhinav",
-      "fullName": "Abhinav Gupta",
-      "summary": "Full stack software engineer • Mumbai, 🇮🇳",
-      "labels": ["software engineer", "full stack"],
-      "aliases": ["abhnv42"],
-      "contact": {
-        "emails": ["abhnvashgpta@gmail.com"],
-        "phones": [
-          {
-            "countryCode": 91,
-            "number": "8949645804"
-          }
+  "$schema": "https://recivi.pages.dev/schemas/recivi-resume.json",
+  "bio": {
+    "name": "Abhinav",
+    "fullName": "Abhinav Gupta",
+    "summary": "Full stack software engineer • Mumbai, 🇮🇳",
+    "labels": ["software engineer"],
+    "aliases": ["abhnv42"],
+    "contact": {
+      "emails": ["abhnvashgpta@gmail.com"]
+    },
+    "profiles": [
+      {
+        "site": {
+          "id": "whatsapp",
+          "name": "WhatsApp"
+        },
+        "url": "https://wa.me/+918949645804",
+        "username": "+91 8949645804"
+      },
+      {
+        "site": {
+          "id": "github",
+          "name": "GitHub"
+        },
+        "url": "https://github.com/abhnv42",
+        "username": "abhnv42"
+      },
+      {
+        "site": {
+          "id": "linkedin",
+          "name": "LinkedIn"
+        },
+        "url": "https://www.linkedin.com/in/abhnv42",
+        "username": "abhnv42"
+      }
+    ],
+    "skills": [
+      {
+        "id": "openjdk",
+        "name": "Java",
+        "subSkills": ["Swing", { "id": "spring", "name": "Spring" }]
+      },
+      {
+        "id": "kotlin",
+        "name": "Kotlin",
+        "subSkills": [{ "id": "android", "name": "Android" }]
+      },
+      { "id": "go", "name": "Golang" },
+      { "id": "php", "name": "PHP" },
+      {
+        "name": "Web",
+        "subSkills": [
+          { "id": "html5", "name": "HTML" },
+          { "id": "css", "name": "CSS" },
+          { "id": "javascript", "name": "JS" },
+          { "id": "svg", "name": "SVG" }
         ]
       },
-      "image": "",
-      "profiles": [
+      {
+        "name": "Shell",
+        "subSkills": [
+          { "id": "gnubash", "name": "Bash" },
+          { "id": "zsh", "name": "Zsh" }
+        ]
+      }
+    ],
+    "languages": [
+      {
+        "name": "English",
+        "speak": "native",
+        "listen": "native",
+        "write": "native",
+        "read": "native"
+      }
+    ],
+    "residence": {
+      "city": "Mumbai",
+      "countryCode": "IN"
+    }
+  },
+  "education": [
+    {
+      "id": "iit_r",
+      "name": "Indian Institute of Technology, Roorkee",
+      "shortName": "IIT-R",
+      "url": {
+        "dest": "https://iitr.ac.in",
+        "label": "IIT Roorkee homepage"
+      },
+      "address": {
+        "city": "Roorkee",
+        "state": "UK",
+        "countryCode": "IN",
+        "postalCode": 247667
+      },
+      "certs": [
         {
-          "site": {
-            "id": "whatsapp",
-            "name": "WhatsApp"
+          "id": "b_tech",
+          "name": "Bachelor of Technology",
+          "shortName": "B. Tech.",
+          "issue": [2019],
+          "period": {
+            "start": [2015],
+            "end": [2019]
           },
-          "url": "https://wa.me/+918949645804",
-          "username": "+91 8949645804"
-        },
-        {
-          "site": {
-            "id": "github",
-            "name": "GitHub"
-          },
-          "url": "https://github.com/abhnv42",
-          "username": "abhnv42"
-        },
-        {
-          "site": {
-            "id": "linkedin",
-            "name": "LinkedIn"
-          },
-          "url": "https://www.linkedin.com/in/abhnv42",
-          "username": "abhnv42"
+          "score": "7.286",
+          "maxScore": "10.000",
+          "field": "Engineering Physics",
+          "tags": ["resume_pdf"]
         }
-      ],
-      "skills": [
+      ]
+    },
+    {
+      "id": "jaipuariar",
+      "name": "Jaipuriar School, Navi Mumbai",
+      "shortName": "Jaipuriar",
+      "url": {
+        "dest": "https://jaipuriarschool.org",
+        "label": "Jaipuriar homepage"
+      },
+      "address": {
+        "city": "Navi Mumbai",
+        "state": "MH",
+        "countryCode": "IN",
+        "postalCode": 400705
+      },
+      "certs": [
         {
-          "id": "openjdk",
-          "name": "Java",
-          "subSkills": ["Swing", { "id": "spring", "name": "Spring" }]
+          "id": "aissce",
+          "name": "All India Senior School Certificate Examination",
+          "shortName": "CBSE Class 12",
+          "issue": [2014],
+          "period": {
+            "start": [2015],
+            "end": [2019]
+          },
+          "score": "7.286",
+          "maxScore": "10.000",
+          "field": "Science + CS"
+        }
+      ]
+    },
+    {
+      "id": "sda",
+      "name": "SDA School, Navi Mumbai",
+      "shortName": "SDA",
+      "url": {
+        "dest": "https://sdaschoolsanpada.in",
+        "label": "SDA homepage"
+      },
+      "address": {
+        "city": "Navi Mumbai",
+        "state": "MH",
+        "countryCode": "IN",
+        "postalCode": 400705
+      },
+      "certs": [
+        {
+          "id": "aissce",
+          "name": "Indian Certificate of Secondary Education",
+          "shortName": "CISCE Class 10",
+          "issue": [2012],
+          "period": {
+            "start": [2015],
+            "end": [2019]
+          },
+          "score": "7.286",
+          "maxScore": "10.000"
+        }
+      ]
+    }
+  ],
+  "work": [
+    {
+      "id": "automattic",
+      "name": "Automattic",
+      "shortName": "A8C",
+      "url": {
+        "dest": "https://automattic.com",
+        "label": "Automattic homepage"
+      },
+      "address": {
+        "city": "San Francisco",
+        "state": "CA",
+        "countryCode": "US"
+      },
+      "summary": "The folks behind <a href=\"https://wordpress.com\">WP.com</a>, <a href=\"https://woocommerce.com/\">Woo</a>, <a href=\"https://jetpack.com/\">Jetpack</a>, <a href=\"https://gravatar.com/\">Gravatar</a> & <a href=\"https://www.tumblr.com/\">Tumblr</a>.",
+      "description": "Automattic is the company behind <a href=\"https://wordpress.com\">WordPress.com</a>, <a href=\"https://woocommerce.com/\">WooCommerce</a>, <a href=\"https://jetpack.com/\">Jetpack</a>, <a href=\"https://gravatar.com/\">Gravatar</a>, <a href=\"https://www.tumblr.com/\">Tumblr</a>, and more. They believe in making the web a better place.",
+      "roles": [
+        {
+          "id": "code_wrangler",
+          "name": "Code wrangler",
+          "period": {
+            "start": [2025, 1]
+          },
+          "type": "full-time",
+          "location": "remote",
+          "epicIds": ["parsedotly"]
+        }
+      ]
+    },
+    {
+      "id": "wordpress",
+      "name": "WordPress",
+      "shortName": "WP",
+      "url": {
+        "dest": "https://wordpress.org",
+        "label": "WordPress homepage"
+      },
+      "summary": "The open-source CMS that powers over 40% of the web.",
+      "description": "WordPress is the open-source content management system that powers over 40% of the web. It is also the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
+      "roles": [
+        {
+          "id": "team_lead",
+          "name": "Team lead",
+          "period": {
+            "start": [2024, 12]
+          },
+          "type": "full-time",
+          "location": "remote",
+          "highlights": [
+            "Led a globally distributed, remote team of maintainers.",
+            "Conducted regular 1:1s, team meetings, retros and meetups."
+          ],
+          "epicIds": ["openverse"],
+          "tags": ["resume_pdf"]
         },
         {
-          "id": "kotlin",
-          "name": "Kotlin",
-          "subSkills": [{ "id": "android", "name": "Android" }]
-        },
-        { "id": "go", "name": "Golang" },
-        { "id": "php", "name": "PHP" },
+          "id": "project_maintainer",
+          "name": "Project maintainer",
+          "period": {
+            "start": [2021, 4]
+          },
+          "type": "foss",
+          "location": "remote",
+          "highlights": [
+            "Developed the <a href=\"https://openverse.org\">Openverse</a> media search engine.",
+            "Wrote & reviewed technical implementation plans.",
+            "Added new features with the WordPress FOSS community.",
+            "Onboarded & mentored new open-source contributors.",
+            "Evangelised Openverse at flagship WordCamps in EU & Asia."
+          ],
+          "epicIds": ["openverse"],
+          "tags": ["resume_pdf"]
+        }
+      ]
+    },
+    {
+      "id": "htmx",
+      "name": "htmx",
+      "url": {
+        "dest": "https://htmx.org",
+        "label": "htmx homepage"
+      },
+      "contact": {
+        "emails": ["hr@bigsky.software"]
+      },
+      "summary": "High power tools for HTML.",
+      "description": "htmx makes AJAX, CSS Transitions, WebSockets and Server Sent Events accessible directly in HTML, using attributes, so modern user interfaces can be built with the simplicity and power of hypertext.",
+      "roles": [
         {
-          "name": "Web",
-          "subSkills": [
-            { "id": "html5", "name": "HTML" },
-            { "id": "css", "name": "CSS" },
-            { "id": "javascript", "name": "JS" },
-            { "id": "svg", "name": "SVG" }
+          "id": "ceo",
+          "name": "Chief executive officer",
+          "period": {
+            "start": [2024, 1]
+          },
+          "type": "foss",
+          "location": "remote",
+          "highlights": [
+            "<em>Assumption:</em> <a href=\"https://htmx.org/essays/lore/#htmx-ceo\">Every human is a CEO of htmx.</a>",
+            "<em>Assumption:</em> I am human.",
+            "Therefore, I am a CEO of htmx. <em>Q.E.D.</em>"
           ]
-        },
-        {
-          "name": "Shell",
-          "subSkills": [
-            { "id": "gnubash", "name": "Bash" },
-            { "id": "zsh", "name": "Zsh" }
-          ]
         }
-      ],
-      "languages": [
-        {
-          "name": "English",
-          "speak": "native",
-          "listen": "native",
-          "write": "native",
-          "read": "native"
-        },
-        {
-          "name": {
-            "id": "hi",
-            "name": "हिन्दी",
-            "englishName": "Hindi"
-          },
-          "speak": "native",
-          "listen": "native",
-          "write": "native",
-          "read": "native"
-        },
-        {
-          "name": {
-            "id": "mr",
-            "name": "मराठी",
-            "englishName": "Marathi"
-          },
-          "speak": "limited_working",
-          "listen": "limited_working",
-          "write": "limited_working",
-          "read": "limited_working"
-        }
-      ],
-      "origin": {
+      ]
+    },
+    {
+      "id": "browserstack",
+      "name": "BrowserStack",
+      "shortName": "BS",
+      "url": {
+        "dest": "https://browserstack.com",
+        "label": "BrowserStack homepage"
+      },
+      "address": {
         "city": "Mumbai",
         "state": "MH",
         "countryCode": "IN"
-      }
+      },
+      "summary": "A cloud platform for testing on real browsers & devices.",
+      "description": "BrowserStack is a cloud platform that provides a way to test websites and mobile applications on real mobile browsers and devices.",
+      "roles": [
+        {
+          "id": "software_engineer",
+          "name": "Software engineer",
+          "period": {
+            "start": [2020, 2],
+            "end": [2021, 3]
+          },
+          "type": "full-time",
+          "location": "onsite",
+          "highlights": [
+            "Identified & fixed systemic issues to prevent GDPR breaches.",
+            "Built audit logs to detect & alert for GDPR breaches.",
+            "Integrated multiple providers into a common email system.",
+            "Created system to track & visualise email engagement.",
+            "Implemented SPF, DKIM, DMARC for safety and deliverability."
+          ],
+          "epicIds": ["browserstack"],
+          "tags": ["resume_pdf"]
+        }
+      ]
     },
-    "education": [
-      {
-        "id": "ngp_univ",
-        "name": "Nagpur University",
-        "certs": [
-          {
-            "id": "be",
-            "name": "Bachelor of Engineering",
-            "shortName": "BE",
-            "period": {
-              "start": [2012],
-              "end": [2016]
-            },
-            "score": "7.286",
-            "maxScore": "10.000",
-            "field": "Computer Engineering",
-            "tags": ["resume_pdf"]
-          }
-        ]
-      }
-    ],
-    "work": [
-      {
-        "id": "automattic",
-        "name": "Automattic",
-        "shortName": "A8C",
-        "url": {
-          "dest": "https://automattic.com",
-          "label": "Automattic homepage"
-        },
-        "address": {
-          "city": "San Francisco",
-          "state": "CA",
-          "countryCode": "US"
-        },
-        "summary": "The folks behind <a href=\"https://wordpress.com\">WP.com</a>, <a href=\"https://woocommerce.com/\">Woo</a>, <a href=\"https://jetpack.com/\">Jetpack</a>, <a href=\"https://gravatar.com/\">Gravatar</a> & <a href=\"https://www.tumblr.com/\">Tumblr</a>.",
-        "description": "Automattic is the company behind <a href=\"https://wordpress.com\">WordPress.com</a>, <a href=\"https://woocommerce.com/\">WooCommerce</a>, <a href=\"https://jetpack.com/\">Jetpack</a>, <a href=\"https://gravatar.com/\">Gravatar</a>, <a href=\"https://www.tumblr.com/\">Tumblr</a>, and more. They believe in making the web a better place.",
-        "roles": [
-          {
-            "id": "code_wrangler",
-            "name": "Code wrangler",
-            "period": {
-              "start": [2025, 1]
-            },
-            "type": "full-time",
-            "location": "remote",
-            "epicIds": ["parsedotly"]
-          }
-        ]
+    {
+      "id": "creativecommons",
+      "name": "Creative Commons",
+      "shortName": "CC",
+      "url": {
+        "dest": "https://opensource.creativecommons.org",
+        "label": "Creative Commons Open Source homepage"
       },
-      {
-        "id": "wordpress",
-        "name": "WordPress",
-        "shortName": "WP",
-        "url": {
-          "dest": "https://wordpress.org",
-          "label": "WordPress homepage"
-        },
-        "summary": "The open-source CMS that powers over 40% of the web.",
-        "description": "WordPress is the open-source content management system that powers over 40% of the web. It is also the home of the <a href=\"https://openverse.org\">Openverse</a> project.",
-        "roles": [
-          {
-            "id": "team_lead",
-            "name": "Team lead",
-            "period": {
-              "start": [2024, 12]
-            },
-            "type": "full-time",
-            "location": "remote",
-            "highlights": [
-              "Led a globally distributed, remote team of maintainers.",
-              "Conducted regular 1:1s, team meetings, retros and meetups."
-            ],
-            "epicIds": ["openverse"],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "project_maintainer",
-            "name": "Project maintainer",
-            "period": {
-              "start": [2021, 4]
-            },
-            "type": "foss",
-            "location": "remote",
-            "highlights": [
-              "Developed the <a href=\"https://openverse.org\">Openverse</a> media search engine.",
-              "Wrote & reviewed technical implementation plans.",
-              "Added new features with the WordPress FOSS community.",
-              "Onboarded & mentored new open-source contributors.",
-              "Evangelised Openverse at flagship WordCamps in EU & Asia."
-            ],
-            "epicIds": ["openverse"],
-            "tags": ["resume_pdf"]
-          }
-        ]
+      "address": {
+        "city": "Mountain View",
+        "state": "CA",
+        "countryCode": "US"
       },
-      {
-        "id": "htmx",
-        "name": "htmx",
-        "url": {
-          "dest": "https://htmx.org",
-          "label": "htmx homepage"
+      "summary": "Non-profit promoting public domain & openly-licensed media.",
+      "description": "Creative Commons is a non-profit organisation and international network that promotes sharing of openly-licensed media.",
+      "roles": [
+        {
+          "id": "project_maintainer",
+          "name": "Project maintainer",
+          "period": {
+            "start": [2019, 9],
+            "end": [2020, 12]
+          },
+          "type": "foss",
+          "location": "remote",
+          "highlights": [
+            "Developed the <a href=\"https://github.com/creativecommons/vocabulary\">Vocabulary</a> design system.",
+            "Worked on features with the CC FOSS community."
+          ],
+          "epicIds": ["vocabulary"]
         },
-        "contact": {
-          "emails": ["hr@bigsky.software"]
+        {
+          "id": "foss_community_coordinator",
+          "name": "Community coordinator",
+          "period": {
+            "start": [2020, 7],
+            "end": [2020, 12]
+          },
+          "type": "contract",
+          "location": "remote",
+          "highlights": [
+            "Onboarded & mentored new open-source contributors.",
+            "Maintained the <a href=\"https://github.com/creativecommons/creativecommons.github.io-source/\">open-source site</a> and <a href=\"https://github.com/creativecommons/ccos-scripts/\">automation workflows</a>.",
+            "Increased activity, reach & engagement on <a href=\"https://twitter.com/cc_opensource\">Twitter (now 𝕏)</a>."
+          ],
+          "tags": ["resume_pdf"]
         },
-        "summary": "High power tools for HTML.",
-        "description": "htmx makes AJAX, CSS Transitions, WebSockets and Server Sent Events accessible directly in HTML, using attributes, so modern user interfaces can be built with the simplicity and power of hypertext.",
-        "roles": [
-          {
-            "id": "ceo",
-            "name": "Chief executive officer",
-            "period": {
-              "start": [2024, 1]
-            },
-            "type": "foss",
-            "location": "remote",
-            "highlights": [
-              "<em>Assumption:</em> <a href=\"https://htmx.org/essays/lore/#htmx-ceo\">Every human is a CEO of htmx.</a>",
-              "<em>Assumption:</em> I am human.",
-              "Therefore, I am a CEO of htmx. <em>Q.E.D.</em>"
-            ]
-          }
-        ]
+        {
+          "id": "internship_mentor",
+          "name": "Internship mentor",
+          "period": {
+            "start": [2019, 12],
+            "end": [2020, 12]
+          },
+          "type": "foss",
+          "location": "remote",
+          "highlights": [
+            "Onboarded & guided applicants; scored & ranked proposals.",
+            "Mentored <a href=\"https://developers.google.com/season-of-docs\"><em>Google Season of Docs</em></a> in 2020.",
+            "Mentored <a href=\"https://www.outreachy.org/\"><em>Outreachy</em></a> in winter 2019-20 & summer 2020."
+          ],
+          "epicIds": ["vocabulary"],
+          "tags": ["resume_pdf"]
+        },
+        {
+          "id": "gsoc_engineer",
+          "name": "GSoC engineer",
+          "period": {
+            "start": [2019, 5],
+            "end": [2019, 8]
+          },
+          "type": "internship",
+          "location": "remote",
+          "highlights": [
+            "Proposed own idea for a design system for CC, Vocabulary.",
+            "Developed Vocabulary in close collaboration with designers.",
+            "Initiated & supported Vocabulary integration with CC sites."
+          ],
+          "epicIds": ["vocabulary"],
+          "tags": ["resume_pdf"]
+        }
+      ]
+    },
+    {
+      "id": "fampay",
+      "name": "FamPay (now Fam)",
+      "shortName": "Fam",
+      "url": {
+        "dest": "https://famapp.in",
+        "label": "Fam homepage"
       },
-      {
-        "id": "browserstack",
-        "name": "BrowserStack",
-        "shortName": "BS",
-        "url": {
-          "dest": "https://browserstack.com",
-          "label": "BrowserStack homepage"
-        },
-        "address": {
-          "city": "Mumbai",
-          "state": "MH",
-          "countryCode": "IN"
-        },
-        "summary": "A cloud platform for testing on real browsers & devices.",
-        "description": "BrowserStack is a cloud platform that provides a way to test websites and mobile applications on real mobile browsers and devices.",
-        "roles": [
-          {
-            "id": "software_engineer",
-            "name": "Software engineer",
-            "period": {
-              "start": [2020, 2],
-              "end": [2021, 3]
-            },
-            "type": "full-time",
-            "location": "onsite",
-            "highlights": [
-              "Identified & fixed systemic issues to prevent GDPR breaches.",
-              "Built audit logs to detect & alert for GDPR breaches.",
-              "Integrated multiple providers into a common email system.",
-              "Created system to track & visualise email engagement.",
-              "Implemented SPF, DKIM, DMARC for safety and deliverability."
-            ],
-            "epicIds": ["browserstack"],
-            "tags": ["resume_pdf"]
-          }
-        ]
+      "address": {
+        "city": "Bangalore",
+        "state": "KA",
+        "countryCode": "IN"
       },
-      {
-        "id": "creativecommons",
-        "name": "Creative Commons",
-        "shortName": "CC",
-        "url": {
-          "dest": "https://opensource.creativecommons.org",
-          "label": "Creative Commons Open Source homepage"
-        },
-        "address": {
-          "city": "Mountain View",
-          "state": "CA",
-          "countryCode": "US"
-        },
-        "summary": "Non-profit promoting public domain & openly-licensed media.",
-        "description": "Creative Commons is a non-profit organisation and international network that promotes sharing of openly-licensed media.",
-        "roles": [
-          {
-            "id": "project_maintainer",
-            "name": "Project maintainer",
-            "period": {
-              "start": [2019, 9],
-              "end": [2020, 12]
-            },
-            "type": "foss",
-            "location": "remote",
-            "highlights": [
-              "Developed the <a href=\"https://github.com/creativecommons/vocabulary\">Vocabulary</a> design system.",
-              "Worked on features with the CC FOSS community."
-            ],
-            "epicIds": ["vocabulary"]
+      "summary": "A neobank for teenagers to manage their pocket money.",
+      "description": "FamPay is a neobank that helps teenagers learn everything there is to know about money - from saving and spending to investing and earning.",
+      "roles": [
+        {
+          "id": "software_engineer",
+          "name": "Software engineer",
+          "period": {
+            "start": [2019, 11],
+            "end": [2019, 12]
           },
-          {
-            "id": "foss_community_coordinator",
-            "name": "Community coordinator",
-            "period": {
-              "start": [2020, 7],
-              "end": [2020, 12]
-            },
-            "type": "contract",
-            "location": "remote",
-            "highlights": [
-              "Onboarded & mentored new open-source contributors.",
-              "Maintained the <a href=\"https://github.com/creativecommons/creativecommons.github.io-source/\">open-source site</a> and <a href=\"https://github.com/creativecommons/ccos-scripts/\">automation workflows</a>.",
-              "Increased activity, reach & engagement on <a href=\"https://twitter.com/cc_opensource\">Twitter (now 𝕏)</a>."
-            ],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "internship_mentor",
-            "name": "Internship mentor",
-            "period": {
-              "start": [2019, 12],
-              "end": [2020, 12]
-            },
-            "type": "foss",
-            "location": "remote",
-            "highlights": [
-              "Onboarded & guided applicants; scored & ranked proposals.",
-              "Mentored <a href=\"https://developers.google.com/season-of-docs\"><em>Google Season of Docs</em></a> in 2020.",
-              "Mentored <a href=\"https://www.outreachy.org/\"><em>Outreachy</em></a> in winter 2019-20 & summer 2020."
-            ],
-            "epicIds": ["vocabulary"],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "gsoc_engineer",
-            "name": "GSoC engineer",
-            "period": {
-              "start": [2019, 5],
-              "end": [2019, 8]
-            },
-            "type": "internship",
-            "location": "remote",
-            "highlights": [
-              "Proposed own idea for a design system for CC, Vocabulary.",
-              "Developed Vocabulary in close collaboration with designers.",
-              "Initiated & supported Vocabulary integration with CC sites."
-            ],
-            "epicIds": ["vocabulary"],
-            "tags": ["resume_pdf"]
-          }
-        ]
+          "type": "part-time",
+          "location": "onsite",
+          "highlights": [
+            "Developed the end-to-end payment flow for the app.",
+            "Integrated multiple payment gateways to increase reliability.",
+            "Ensured idempotency and transactional integrity in payments."
+          ],
+          "tags": ["resume_pdf"]
+        }
+      ]
+    },
+    {
+      "id": "hackerearth",
+      "name": "HackerEarth",
+      "shortName": "HE",
+      "url": {
+        "dest": "https://hackerearth.com",
+        "label": "HackerEarth homepage"
       },
-      {
-        "id": "fampay",
-        "name": "FamPay (now Fam)",
-        "shortName": "Fam",
-        "url": {
-          "dest": "https://famapp.in",
-          "label": "Fam homepage"
-        },
-        "address": {
-          "city": "Bangalore",
-          "state": "KA",
-          "countryCode": "IN"
-        },
-        "summary": "A neobank for teenagers to manage their pocket money.",
-        "description": "FamPay is a neobank that helps teenagers learn everything there is to know about money - from saving and spending to investing and earning.",
-        "roles": [
-          {
-            "id": "software_engineer",
-            "name": "Software engineer",
-            "period": {
-              "start": [2019, 11],
-              "end": [2019, 12]
-            },
-            "type": "part-time",
-            "location": "onsite",
-            "highlights": [
-              "Developed the end-to-end payment flow for the app.",
-              "Integrated multiple payment gateways to increase reliability.",
-              "Ensured idempotency and transactional integrity in payments."
-            ],
-            "tags": ["resume_pdf"]
-          }
-        ]
+      "address": {
+        "city": "Bangalore",
+        "state": "KA",
+        "countryCode": "IN"
       },
-      {
-        "id": "hackerearth",
-        "name": "HackerEarth",
-        "shortName": "HE",
-        "url": {
-          "dest": "https://hackerearth.com",
-          "label": "HackerEarth homepage"
-        },
-        "address": {
-          "city": "Bangalore",
-          "state": "KA",
-          "countryCode": "IN"
-        },
-        "summary": "A platform for hosting hackathons and coding challenges.",
-        "description": "HackerEarth provides a platform for testing and hiring developers using skill-based tests. HackerEarth also provides a way to host internal/branded hackathons where they manage the entire experience.",
-        "roles": [
-          {
-            "id": "infrastructure_engineer",
-            "name": "Infrastructure engineer",
-            "period": {
-              "start": [2018, 5],
-              "end": [2018, 7]
-            },
-            "type": "internship",
-            "location": "onsite",
-            "highlights": [
-              "Wrote the IaC for the entire production architecture.",
-              "Created tooling to deploy the IaC in an alternate AWS AZ.",
-              "Developed scripts to launch and terminate EC2 instances.",
-              "Isolated staging env from production in a separate VPC.",
-              "Enabled one‑click provisioning of staging environments."
-            ]
+      "summary": "A platform for hosting hackathons and coding challenges.",
+      "description": "HackerEarth provides a platform for testing and hiring developers using skill-based tests. HackerEarth also provides a way to host internal/branded hackathons where they manage the entire experience.",
+      "roles": [
+        {
+          "id": "infrastructure_engineer",
+          "name": "Infrastructure engineer",
+          "period": {
+            "start": [2018, 5],
+            "end": [2018, 7]
           },
-          {
-            "id": "software_engineer",
-            "name": "Software engineer",
-            "period": {
-              "start": [2017, 5],
-              "end": [2017, 7]
-            },
-            "type": "internship",
-            "location": "onsite",
-            "highlights": [
-              "Wrote a code‑evaluation engine to evaluate Java projects.",
-              "Created tooling to automatically build and execute projects.",
-              "Wrapped Ant in an async message‑based Python evaluator.",
-              "Developed the scaffolding architecture using RabbitMQ.",
-              "Added provider‑agnostic database connectivity using JDBC.",
-              "Installed security policies such as memory and I/O limits."
-            ]
-          }
-        ]
+          "type": "internship",
+          "location": "onsite",
+          "highlights": [
+            "Wrote the IaC for the entire production architecture.",
+            "Created tooling to deploy the IaC in an alternate AWS AZ.",
+            "Developed scripts to launch and terminate EC2 instances.",
+            "Isolated staging env from production in a separate VPC.",
+            "Enabled one‑click provisioning of staging environments."
+          ]
+        },
+        {
+          "id": "software_engineer",
+          "name": "Software engineer",
+          "period": {
+            "start": [2017, 5],
+            "end": [2017, 7]
+          },
+          "type": "internship",
+          "location": "onsite",
+          "highlights": [
+            "Wrote a code‑evaluation engine to evaluate Java projects.",
+            "Created tooling to automatically build and execute projects.",
+            "Wrapped Ant in an async message‑based Python evaluator.",
+            "Developed the scaffolding architecture using RabbitMQ.",
+            "Added provider‑agnostic database connectivity using JDBC.",
+            "Installed security policies such as memory and I/O limits."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "img",
+      "name": "IMG IIT Roorkee",
+      "shortName": "IMG IIT-R",
+      "url": {
+        "dest": "https://img.channeli.in",
+        "label": "IMG homepage"
       },
-      {
-        "id": "img",
-        "name": "IMG IIT Roorkee",
-        "shortName": "IMG IIT-R",
-        "url": {
-          "dest": "https://img.channeli.in",
-          "label": "IMG homepage"
-        },
-        "summary": "The student body behind the IIT-R website & intranet portal.",
-        "description": "IMG a student group, which cultivates technical innovation and drives the development of software systems and niche applications which empathize with the residents of IIT Roorkee.",
-        "roles": [
-          {
-            "id": "chief_coordinator_tech",
-            "name": "Chief coordinator (tech)",
-            "period": {
-              "start": [2016, 1],
-              "end": [2019, 4]
-            },
-            "type": "part-time",
-            "location": "onsite",
-            "highlights": [
-              "Pivoted IMG as a group from app to platform development.",
-              "Upgraded the legacy portal, tech stack & apps to <a href=\"https://omniport.readthedocs.io/\">Omniport</a>.",
-              "Containerised, decoupled & stabilised dev processes.",
-              "Halved timelines by revamping the development paradigm.",
-              "Mentored a team of over 50 developers and designers.",
-              "Fostered <a href=\"https://github.com/IMGIITRoorkee/\">OSS culture</a> by open-sourcing 40+ repos.",
-              "Led IMG to 10 and 13 <a href=\"https://summerofcode.withgoogle.com/\">GSoC</a> selections in 2018 and 2019.",
-              "Reinvigorated IMG's popular image on various <a href=\"https://facebook.com/IMGIITRoorkee\">social media</a>."
-            ],
-            "epicIds": ["omniport"]
-          }
-        ]
-      }
-    ],
-    "creations": [
-      {
-        "id": "parsedotly",
-        "name": "Parse.ly",
-        "url": {
-          "dest": "https://parse.ly",
-          "label": "Parse.ly homepage"
-        },
-        "summary": "A content analytics platform for publishers.",
-        "description": "Parse.ly is a content analytics platform that helps digital publishers understand their audience and content performance.",
-        "projects": [
-          {
-            "id": "query_platform",
-            "name": "Query platform",
-            "role": "Creator",
-            "technologies": [
-              {
-                "id": "python",
-                "name": "Python"
-              },
-              {
-                "id": "django",
-                "name": "Django"
-              },
-              {
-                "id": "elasticsearch",
-                "name": "Elasticsearch",
-                "shortName": "ES"
-              }
-            ]
-          }
-        ]
+      "summary": "The student body behind the IIT-R website & intranet portal.",
+      "description": "IMG a student group, which cultivates technical innovation and drives the development of software systems and niche applications which empathize with the residents of IIT Roorkee.",
+      "roles": [
+        {
+          "id": "chief_coordinator_tech",
+          "name": "Chief coordinator (tech)",
+          "period": {
+            "start": [2016, 1],
+            "end": [2019, 4]
+          },
+          "type": "part-time",
+          "location": "onsite",
+          "highlights": [
+            "Pivoted IMG as a group from app to platform development.",
+            "Upgraded the legacy portal, tech stack & apps to <a href=\"https://omniport.readthedocs.io/\">Omniport</a>.",
+            "Containerised, decoupled & stabilised dev processes.",
+            "Halved timelines by revamping the development paradigm.",
+            "Mentored a team of over 50 developers and designers.",
+            "Fostered <a href=\"https://github.com/IMGIITRoorkee/\">OSS culture</a> by open-sourcing 40+ repos.",
+            "Led IMG to 10 and 13 <a href=\"https://summerofcode.withgoogle.com/\">GSoC</a> selections in 2018 and 2019.",
+            "Reinvigorated IMG's popular image on various <a href=\"https://facebook.com/IMGIITRoorkee\">social media</a>."
+          ],
+          "epicIds": ["omniport"]
+        }
+      ]
+    }
+  ],
+  "creations": [
+    {
+      "id": "parsedotly",
+      "name": "Parse.ly",
+      "url": {
+        "dest": "https://parse.ly",
+        "label": "Parse.ly homepage"
       },
-      {
-        "id": "openverse",
-        "name": "Openverse",
-        "url": {
-          "dest": "https://openverse.org",
-          "label": "Openverse homepage"
+      "summary": "A content analytics platform for publishers.",
+      "description": "Parse.ly is a content analytics platform that helps digital publishers understand their audience and content performance.",
+      "projects": [
+        {
+          "id": "query_platform",
+          "name": "Query platform",
+          "role": "Creator",
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
+            },
+            {
+              "id": "django",
+              "name": "Django"
+            },
+            {
+              "id": "elasticsearch",
+              "name": "Elasticsearch",
+              "shortName": "ES"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "openverse",
+      "name": "Openverse",
+      "url": {
+        "dest": "https://openverse.org",
+        "label": "Openverse homepage"
+      },
+      "summary": "An open-source search engine for openly-licensed media.",
+      "description": "Openverse indexes 800M+ images and audio tracks from open APIs, public repositories, and the Common Crawl dataset. It facilitate reuse through features like automattic attribution.",
+      "projects": [
+        {
+          "id": "search_engine",
+          "name": "openverse.org",
+          "role": "Maintainer",
+          "summary": "The primary channel to search across 800M+ creative works.",
+          "description": "The search engine at Openverse.org is one of the primary ways of accessing Openverse's massive index of openly-licensed media, either by searching for something specifically or browsing via collections.",
+          "highlights": [
+            "Migrated the codebase to a monorepo with intricate CI/CD.",
+            "Added privacy-friendly analytics for general usage metrics.",
+            "Created safeguards to prevent sensitive content exposure.",
+            "Evaluated & adopted PDM as the Python package manager.",
+            "Developed the <code>ov</code> environment for onboarding new devs."
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "nuxt",
+              "name": "Nuxt"
+            },
+            {
+              "id": "tailwindcss",
+              "name": "Tailwind"
+            },
+            {
+              "id": "vitest",
+              "name": "Vitest"
+            },
+            {
+              "id": "playwright",
+              "name": "Playwright"
+            }
+          ],
+          "tags": ["resume_pdf"]
         },
-        "summary": "An open-source search engine for openly-licensed media.",
-        "description": "Openverse indexes 800M+ images and audio tracks from open APIs, public repositories, and the Common Crawl dataset. It facilitate reuse through features like automattic attribution.",
-        "projects": [
-          {
-            "id": "search_engine",
-            "name": "openverse.org",
-            "role": "Maintainer",
-            "summary": "The primary channel to search across 800M+ creative works.",
-            "description": "The search engine at Openverse.org is one of the primary ways of accessing Openverse's massive index of openly-licensed media, either by searching for something specifically or browsing via collections.",
-            "highlights": [
-              "Migrated the codebase to a monorepo with intricate CI/CD.",
-              "Added privacy-friendly analytics for general usage metrics.",
-              "Created safeguards to prevent sensitive content exposure.",
-              "Evaluated & adopted PDM as the Python package manager.",
-              "Developed the <code>ov</code> environment for onboarding new devs."
-            ],
-            "technologies": [
-              {
-                "id": "typescript",
-                "name": "TypeScript",
-                "shortName": "TS"
-              },
-              {
-                "id": "nuxt",
-                "name": "Nuxt"
-              },
-              {
-                "id": "tailwindcss",
-                "name": "Tailwind"
-              },
-              {
-                "id": "vitest",
-                "name": "Vitest"
-              },
-              {
-                "id": "playwright",
-                "name": "Playwright"
-              }
-            ],
-            "tags": ["resume_pdf"]
+        {
+          "id": "api",
+          "name": "API",
+          "url": {
+            "dest": "https://api.openverse.org",
+            "label": "Openverse API"
           },
-          {
-            "id": "api",
-            "name": "API",
-            "url": {
-              "dest": "https://api.openverse.org",
-              "label": "Openverse API"
+          "role": "Maintainer",
+          "summary": "Provides catalogue access to integrations via a RESTful API.",
+          "description": "The Openverse API is a RESTful interface to access Openverse's massive index of openly-licensed media. The API powers a number of high-profile integrations such as search engine <a href=\"https://kagi.com/\">Kagi</a> and learning platform <a href=\"https://www.sutori.com/en/\">Sutori</a>.",
+          "highlights": [
+            "Refactored to use Django REST framework best practices.",
+            "Generalised to support new media types, such as audio.",
+            "Created pipelines for individual & bulk content moderation."
+          ],
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
             },
-            "role": "Maintainer",
-            "summary": "Provides catalogue access to integrations via a RESTful API.",
-            "description": "The Openverse API is a RESTful interface to access Openverse's massive index of openly-licensed media. The API powers a number of high-profile integrations such as search engine <a href=\"https://kagi.com/\">Kagi</a> and learning platform <a href=\"https://www.sutori.com/en/\">Sutori</a>.",
-            "highlights": [
-              "Refactored to use Django REST framework best practices.",
-              "Generalised to support new media types, such as audio.",
-              "Created pipelines for individual & bulk content moderation."
-            ],
-            "technologies": [
-              {
-                "id": "python",
-                "name": "Python"
-              },
-              {
-                "id": "django",
-                "name": "Django"
-              },
-              {
-                "id": "postgresql",
-                "name": "PostgreSQL",
-                "shortName": "PSQL"
-              },
-              {
-                "id": "elasticsearch",
-                "name": "Elasticsearch",
-                "shortName": "ES"
-              }
-            ],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "infrastructure",
-            "name": "Infrastructure",
-            "role": "Maintainer",
-            "summary": "Openverse's IaC for <a href=\"https://aws.amazon.com/\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services.",
-            "description": "Openverse's infrastructure uses <a href=\"https://aws.amazon.com/\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services, which are managed as code to ensure reproducibility and scalability.",
-            "highlights": [
-              "Implemented monitoring with notification and alert workflows.",
-              "Executed software & platform updates for all services.",
-              "Performed periodic upkeep and rotation of resources."
-            ],
-            "technologies": [
-              {
-                "id": "terraform",
-                "name": "Terraform",
-                "shortName": "TF"
-              },
-              {
-                "id": "ansible",
-                "name": "Ansible"
-              },
-              {
-                "id": "docker",
-                "name": "Docker"
-              },
-              {
-                "id": "amazonwebservices",
-                "name": "AWS"
-              },
-              {
-                "id": "cloudflare",
-                "name": "cloudflare"
-              }
-            ],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "documentation",
-            "name": "Documentation",
-            "url": {
-              "dest": "https://docs.openverse.org",
-              "label": "Openverse documentation"
+            {
+              "id": "django",
+              "name": "Django"
             },
-            "role": "Author",
-            "summary": "The primary source of information for developers.",
-            "description": "Openverse has detailed documentation for developers contributing to the project, which also includes every project proposal, implementation plan and release note for the entire project.",
-            "highlights": [
-              "Conceived and initialised the documentation site.",
-              "Authored the setup, quickstart and maintenance guides.",
-              "Created workflows to deploy the main and preview doc sites."
-            ],
-            "technologies": [
-              {
-                "id": "sphinx",
-                "name": "Sphinx"
-              },
-              {
-                "id": "markdown",
-                "name": "Markdown",
-                "shortName": "MD"
-              },
-              {
-                "id": "storybook",
-                "name": "Storybook"
-              }
-            ]
-          },
-          {
-            "id": "raycast_ext",
-            "name": "Raycast plugin",
-            "url": {
-              "dest": "https://www.raycast.com/openverse/openverse",
-              "label": "Openverse in the Raycast Store"
+            {
+              "id": "postgresql",
+              "name": "PostgreSQL",
+              "shortName": "PSQL"
             },
-            "role": "Creator",
-            "summary": "Enables searching the Openverse catalogue from the desktop.",
-            "description": "This extension provides a way to search for Openverse images inside Raycast, browse through the top results, find a suitable image, obtain a copy of it and get attribution information, all with just a few keystrokes.",
-            "highlights": [
-              "Developed the plugin using Raycast APIs.",
-              "Provides image search, download, attribution and reporting."
-            ],
-            "technologies": [
-              {
-                "id": "typescript",
-                "name": "TypeScript",
-                "shortName": "TS"
-              },
-              {
-                "id": "raycast",
-                "name": "Raycast"
-              },
-              {
-                "id": "react",
-                "name": "React"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "browserstack",
-        "name": "Platform",
-        "summary": "",
-        "projects": [
-          {
-            "id": "email",
-            "name": "Email system",
-            "role": "Maintainer",
-            "summary": "A central email management system for the platform.",
-            "description": "BrowserStack's central email system was a comprehensive solution for sending all kinds of email (transactional and marketing), all while respecting user's communication preferences and never breaching GDPR regulations.",
-            "highlights": [
-              "Integrated multiple email providers into a single endpoint.",
-              "Seamlessly synced email opt-outs across multiple channels.",
-              "Provided insights into email deliverability and engagement.",
-              "Prevented breach of privacy regulations via detailed audit logs."
-            ],
-            "technologies": [
-              {
-                "id": "ruby",
-                "name": "Ruby"
-              },
-              {
-                "id": "rubyonrails",
-                "name": "Rails"
-              },
-              {
-                "id": "mailgun",
-                "name": "Mailgun"
-              },
-              {
-                "id": "mailchimp",
-                "name": "Mailchimp"
-              },
-              {
-                "id": "amazonwebservices",
-                "name": "AWS"
-              }
-            ]
-          },
-          {
-            "id": "users_billing",
-            "name": "Users/billing",
-            "role": "Maintainer",
-            "summary": "Manages user accounts, subscriptions, invoicing and payments.",
-            "description": "BrowserStack's user and billing platform handled everything from accounts and authentication to subscriptions, invoices and payments. It integrated with identity providers, subscription platforms and payment gateways.",
-            "highlights": [
-              "Oversaw the complex finite-state machine of subscription status.",
-              "Handled edge cases of state correction & dispute resolution.",
-              "Created a dashboard to aggregate complete history of a user."
-            ],
-            "technologies": [
-              {
-                "id": "ruby",
-                "name": "Ruby"
-              },
-              {
-                "id": "rubyonrails",
-                "name": "Rails"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "vocabulary",
-        "name": "Vocabulary",
-        "url": {
-          "dest": "https://cc-vocabulary.netlify.app",
-          "label": "Vocabulary homepage"
+            {
+              "id": "elasticsearch",
+              "name": "Elasticsearch",
+              "shortName": "ES"
+            }
+          ],
+          "tags": ["resume_pdf"]
         },
-        "summary": "A design system & component library for CC's web properties.",
-        "projects": [
-          {
-            "id": "ui_components",
-            "name": "UI components",
-            "role": "Creator",
-            "highlights": [
-              "Developed a system of design tokens and Vue components.",
-              "Documented UI patterns using an interactive Storybook."
-            ],
-            "technologies": [
-              {
-                "id": "javascript",
-                "name": "JavaScript"
-              },
-              {
-                "id": "vuedotjs",
-                "name": "Vue"
-              },
-              {
-                "id": "storybook",
-                "name": "Storybook"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "omniport",
-        "name": "Omniport",
-        "url": {
-          "dest": "https://channeli.in",
-          "label": "Omniport homepage"
-        },
-        "summary": "End‑to‑end platform & app ecosystem for institute web portals.",
-        "projects": [
-          {
-            "id": "infrastructure",
-            "name": "Infrastructure",
-            "url": {
-              "dest": "https://github.com/IMGIITRoorkee/omniport-docker",
-              "label": "GitHub repo for Omniport infrastructure"
+        {
+          "id": "infrastructure",
+          "name": "Infrastructure",
+          "role": "Maintainer",
+          "summary": "Openverse's IaC for <a href=\"https://aws.amazon.com/\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services.",
+          "description": "Openverse's infrastructure uses <a href=\"https://aws.amazon.com/\">AWS</a>, <a href=\"https://cloudflare.com\">Cloudflare</a> & other services, which are managed as code to ensure reproducibility and scalability.",
+          "highlights": [
+            "Implemented monitoring with notification and alert workflows.",
+            "Executed software & platform updates for all services.",
+            "Performed periodic upkeep and rotation of resources."
+          ],
+          "technologies": [
+            {
+              "id": "terraform",
+              "name": "Terraform",
+              "shortName": "TF"
             },
-            "role": "Creator",
-            "highlights": [
-              "Designed architecture to be cloud-native and scalable.",
-              "Deployed as micro-services with Docker (+Compose)."
-            ],
-            "technologies": [
-              {
-                "id": "docker",
-                "name": "Docker"
-              },
-              {
-                "id": "gnubash",
-                "name": "Bash"
-              }
-            ]
-          },
-          {
-            "id": "backend",
-            "name": "Backend",
-            "url": {
-              "dest": "https://github.com/IMGIITRoorkee/omniport-backend",
-              "label": "GitHub repo for Omniport backend"
+            {
+              "id": "ansible",
+              "name": "Ansible"
             },
-            "role": "Creator",
-            "highlights": [
-              "Designed to be unopinionated, flexible & customisable.",
-              "Developed plug-&-play system for Django-based apps.",
-              "Added WebSockets support for real-time interactive apps."
-            ],
-            "technologies": [
-              {
-                "id": "python",
-                "name": "Python"
-              },
-              {
-                "id": "django",
-                "name": "Django"
-              },
-              {
-                "id": "postgresql",
-                "name": "PostgreSQL",
-                "shortName": "PSQL"
-              }
-            ]
-          },
-          {
-            "id": "documentation",
-            "name": "Documentation",
-            "url": {
-              "dest": "https://omniport.readthedocs.io",
-              "label": "Developer documentation for Omniport"
+            {
+              "id": "docker",
+              "name": "Docker"
             },
-            "role": "Author",
-            "summary": "The primary source of information for developers.",
-            "highlights": [
-              "Conceived and initialised the documentation site.",
-              "Authored <a href=\"https://documentation.divio.com/\">all 4 types</a> of documentation for the project.",
-              "Created the <a href=\"https://www.youtube.com/watch?v=jU7c4N0R3Vc\">Omniport launch video</a>."
-            ],
-            "technologies": [
-              {
-                "id": "sphinx",
-                "name": "Sphinx"
-              },
-              {
-                "id": "readthedocs",
-                "name": "reStructuredText",
-                "shortName": "reST"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "pls",
-        "name": "pls",
-        "url": {
-          "dest": "https://pls.cli.rs",
-          "label": "`pls` homepage"
-        },
-        "summary": "A prettier and powerful <code>ls(1)</code> for the pros.",
-        "description": "<code>pls</code> is a prettier and powerful alternative to <code>ls(1)</code>, which adds many niche powerful features, is far more customisable and more easily customisable, and just <em>sparks joy</em>.",
-        "projects": [
-          {
-            "id": "cli_application",
-            "name": "CLI application",
-            "role": "Creator",
-            "summary": "An intuitive & elegant command-line interface.",
-            "description": "<code>pls</code> provides a very intuitive and elegant command-line interface with meaningful arguments, sane defaults and predictable behaviour.",
-            "highlights": [
-              "Enabled boundless customisation with cascading config files.",
-              "Included niche features for power users, like Git integration.",
-              "Added SVG support in terminal using Kitty graphics protocol."
-            ],
-            "technologies": [
-              {
-                "id": "rust",
-                "name": "Rust"
-              },
-              {
-                "id": "yaml",
-                "name": "YAML"
-              }
-            ],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "documentation",
-            "name": "Documentation",
-            "role": "Author",
-            "summary": "Thorough end-user documentation for all features.",
-            "description": "<code>pls</code> is accompanied by thorough documentation describing all the options, their behaviour and quirks, with adequate examples.",
-            "highlights": [
-              "Deployed as a static site with an automated CI + CD pipeline.",
-              "Created a pipeline to generate examples for every release."
-            ],
-            "technologies": [
-              {
-                "id": "python",
-                "name": "Python"
-              },
-              {
-                "id": "mdx",
-                "name": "MDX"
-              },
-              {
-                "id": "typescript",
-                "name": "TypeScript",
-                "shortName": "TS"
-              },
-              {
-                "id": "astro",
-                "name": "Astro"
-              },
-              {
-                "id": "starlight",
-                "name": "Starlight"
-              }
-            ]
-          }
-        ]
-      },
-      {
-        "id": "recivi",
-        "name": "Récivi",
-        "url": {
-          "dest": "https://recivi.pages.dev",
-          "label": "Recivi homepage"
-        },
-        "summary": "A new kind of résumé for computers and humans, in that order.",
-        "projects": [
-          {
-            "id": "schema",
-            "name": "Schema",
-            "url": {
-              "dest": "https://recivi.pages.dev/",
-              "label": "Récivi homepage"
+            {
+              "id": "amazonwebservices",
+              "name": "AWS"
             },
-            "role": "Creator",
-            "summary": "A new kind of résumé for computers and humans, in that order.",
-            "highlights": [
-              "Developed the JSON schema and TypeScript interfaces.",
-              "This résumé was made with Récivi as a proof-of-concept!"
-            ],
-            "technologies": [
-              {
-                "id": "typescript",
-                "name": "TypeScript",
-                "shortName": "TS"
-              },
-              {
-                "id": "json",
-                "name": "JSON"
-              },
-              {
-                "id": "zod",
-                "name": "Zod"
-              }
-            ],
-            "tags": ["resume_pdf"]
-          },
-          {
-            "id": "documentation",
-            "name": "Documentation",
-            "role": "Creator",
-            "summary": "A new kind of résumé for computers and humans, in that order."
-          },
-          {
-            "id": "website",
-            "name": "Website",
-            "role": "Creator",
-            "summary": "Contains my homepage, interactive résumé and digital garden.",
-            "highlights": [
-              "Deployed as a static site with an automated CI + CD pipeline.",
-              "Used low-tech frameworks to ship negligible JS to the client."
-            ],
-            "technologies": [
-              {
-                "id": "typescript",
-                "name": "TypeScript",
-                "shortName": "TS"
-              },
-              {
-                "id": "astro",
-                "name": "Astro"
-              },
-              {
-                "id": "tailwindcss",
-                "name": "Tailwind"
-              },
-              {
-                "id": "alpinedotjs",
-                "name": "Alpine"
-              },
-              {
-                "id": "recivi",
-                "name": "Récivi",
-                "url": {
-                  "dest": "https://recivi.pages.dev/",
-                  "label": "Récivi homepage"
-                }
-              }
-            ],
-            "tags": ["resume_pdf"]
-          }
-        ]
-      },
-      {
-        "id": "2fac",
-        "name": "2Fac",
-        "url": {
-          "dest": "https://2fac.vercel.app",
-          "label": "2Fac homepage"
+            {
+              "id": "cloudflare",
+              "name": "cloudflare"
+            }
+          ],
+          "tags": ["resume_pdf"]
         },
-        "summary": "An open-source web-based 2FA app that syncs via GitHub.",
-        "projects": [
-          {
-            "id": "totp_pwa",
-            "name": "TOTP PWA",
-            "role": "Creator",
-            "summary": "Time-based one-time password generator with clean UI.",
-            "highlights": [
-              "Used native UI elements for iOS and Android for cohesive UX.",
-              "Added data back up and sync via a private GitHub repo.",
-              "Provided offline functionality and data import/export."
-            ],
-            "technologies": [
-              {
-                "id": "typescript",
-                "name": "TypeScript"
-              },
-              {
-                "id": "ionic",
-                "name": "Ionic"
-              },
-              {
-                "id": "vuedotjs",
-                "name": "Vue"
-              }
-            ]
-          }
-        ]
+        {
+          "id": "documentation",
+          "name": "Documentation",
+          "url": {
+            "dest": "https://docs.openverse.org",
+            "label": "Openverse documentation"
+          },
+          "role": "Author",
+          "summary": "The primary source of information for developers.",
+          "description": "Openverse has detailed documentation for developers contributing to the project, which also includes every project proposal, implementation plan and release note for the entire project.",
+          "highlights": [
+            "Conceived and initialised the documentation site.",
+            "Authored the setup, quickstart and maintenance guides.",
+            "Created workflows to deploy the main and preview doc sites."
+          ],
+          "technologies": [
+            {
+              "id": "sphinx",
+              "name": "Sphinx"
+            },
+            {
+              "id": "markdown",
+              "name": "Markdown",
+              "shortName": "MD"
+            },
+            {
+              "id": "storybook",
+              "name": "Storybook"
+            }
+          ]
+        },
+        {
+          "id": "raycast_ext",
+          "name": "Raycast plugin",
+          "url": {
+            "dest": "https://www.raycast.com/openverse/openverse",
+            "label": "Openverse in the Raycast Store"
+          },
+          "role": "Creator",
+          "summary": "Enables searching the Openverse catalogue from the desktop.",
+          "description": "This extension provides a way to search for Openverse images inside Raycast, browse through the top results, find a suitable image, obtain a copy of it and get attribution information, all with just a few keystrokes.",
+          "highlights": [
+            "Developed the plugin using Raycast APIs.",
+            "Provides image search, download, attribution and reporting."
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "raycast",
+              "name": "Raycast"
+            },
+            {
+              "id": "react",
+              "name": "React"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "browserstack",
+      "name": "Platform",
+      "summary": "",
+      "projects": [
+        {
+          "id": "email",
+          "name": "Email system",
+          "role": "Maintainer",
+          "summary": "A central email management system for the platform.",
+          "description": "BrowserStack's central email system was a comprehensive solution for sending all kinds of email (transactional and marketing), all while respecting user's communication preferences and never breaching GDPR regulations.",
+          "highlights": [
+            "Integrated multiple email providers into a single endpoint.",
+            "Seamlessly synced email opt-outs across multiple channels.",
+            "Provided insights into email deliverability and engagement.",
+            "Prevented breach of privacy regulations via detailed audit logs."
+          ],
+          "technologies": [
+            {
+              "id": "ruby",
+              "name": "Ruby"
+            },
+            {
+              "id": "rubyonrails",
+              "name": "Rails"
+            },
+            {
+              "id": "mailgun",
+              "name": "Mailgun"
+            },
+            {
+              "id": "mailchimp",
+              "name": "Mailchimp"
+            },
+            {
+              "id": "amazonwebservices",
+              "name": "AWS"
+            }
+          ]
+        },
+        {
+          "id": "users_billing",
+          "name": "Users/billing",
+          "role": "Maintainer",
+          "summary": "Manages user accounts, subscriptions, invoicing and payments.",
+          "description": "BrowserStack's user and billing platform handled everything from accounts and authentication to subscriptions, invoices and payments. It integrated with identity providers, subscription platforms and payment gateways.",
+          "highlights": [
+            "Oversaw the complex finite-state machine of subscription status.",
+            "Handled edge cases of state correction & dispute resolution.",
+            "Created a dashboard to aggregate complete history of a user."
+          ],
+          "technologies": [
+            {
+              "id": "ruby",
+              "name": "Ruby"
+            },
+            {
+              "id": "rubyonrails",
+              "name": "Rails"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vocabulary",
+      "name": "Vocabulary",
+      "url": {
+        "dest": "https://cc-vocabulary.netlify.app",
+        "label": "Vocabulary homepage"
       },
-      {
-        "id": "skyscraper",
-        "name": "Skyscraper",
-        "summary": "Scrape everything.",
-        "projects": [
-          {
-            "id": "website",
-            "name": "Dubai properties",
-            "role": "Creator",
-            "summary": "Scrapes and aggregates information about Dubai properties.",
-            "technologies": [
-              {
-                "id": "python",
-                "name": "Python"
-              },
-              {
-                "id": "django",
-                "name": "Django"
-              },
-              {
-                "id": "htmx",
-                "name": "htmx"
+      "summary": "A design system & component library for CC's web properties.",
+      "projects": [
+        {
+          "id": "ui_components",
+          "name": "UI components",
+          "role": "Creator",
+          "highlights": [
+            "Developed a system of design tokens and Vue components.",
+            "Documented UI patterns using an interactive Storybook."
+          ],
+          "technologies": [
+            {
+              "id": "javascript",
+              "name": "JavaScript"
+            },
+            {
+              "id": "vuedotjs",
+              "name": "Vue"
+            },
+            {
+              "id": "storybook",
+              "name": "Storybook"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "omniport",
+      "name": "Omniport",
+      "url": {
+        "dest": "https://channeli.in",
+        "label": "Omniport homepage"
+      },
+      "summary": "End‑to‑end platform & app ecosystem for institute web portals.",
+      "projects": [
+        {
+          "id": "infrastructure",
+          "name": "Infrastructure",
+          "url": {
+            "dest": "https://github.com/IMGIITRoorkee/omniport-docker",
+            "label": "GitHub repo for Omniport infrastructure"
+          },
+          "role": "Creator",
+          "highlights": [
+            "Designed architecture to be cloud-native and scalable.",
+            "Deployed as micro-services with Docker (+Compose)."
+          ],
+          "technologies": [
+            {
+              "id": "docker",
+              "name": "Docker"
+            },
+            {
+              "id": "gnubash",
+              "name": "Bash"
+            }
+          ]
+        },
+        {
+          "id": "backend",
+          "name": "Backend",
+          "url": {
+            "dest": "https://github.com/IMGIITRoorkee/omniport-backend",
+            "label": "GitHub repo for Omniport backend"
+          },
+          "role": "Creator",
+          "highlights": [
+            "Designed to be unopinionated, flexible & customisable.",
+            "Developed plug-&-play system for Django-based apps.",
+            "Added WebSockets support for real-time interactive apps."
+          ],
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
+            },
+            {
+              "id": "django",
+              "name": "Django"
+            },
+            {
+              "id": "postgresql",
+              "name": "PostgreSQL",
+              "shortName": "PSQL"
+            }
+          ]
+        },
+        {
+          "id": "documentation",
+          "name": "Documentation",
+          "url": {
+            "dest": "https://omniport.readthedocs.io",
+            "label": "Developer documentation for Omniport"
+          },
+          "role": "Author",
+          "summary": "The primary source of information for developers.",
+          "highlights": [
+            "Conceived and initialised the documentation site.",
+            "Authored <a href=\"https://documentation.divio.com/\">all 4 types</a> of documentation for the project.",
+            "Created the <a href=\"https://www.youtube.com/watch?v=jU7c4N0R3Vc\">Omniport launch video</a>."
+          ],
+          "technologies": [
+            {
+              "id": "sphinx",
+              "name": "Sphinx"
+            },
+            {
+              "id": "readthedocs",
+              "name": "reStructuredText",
+              "shortName": "reST"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pls",
+      "name": "pls",
+      "url": {
+        "dest": "https://pls.cli.rs",
+        "label": "`pls` homepage"
+      },
+      "summary": "A prettier and powerful <code>ls(1)</code> for the pros.",
+      "description": "<code>pls</code> is a prettier and powerful alternative to <code>ls(1)</code>, which adds many niche powerful features, is far more customisable and more easily customisable, and just <em>sparks joy</em>.",
+      "projects": [
+        {
+          "id": "cli_application",
+          "name": "CLI application",
+          "role": "Creator",
+          "summary": "An intuitive & elegant command-line interface.",
+          "description": "<code>pls</code> provides a very intuitive and elegant command-line interface with meaningful arguments, sane defaults and predictable behaviour.",
+          "highlights": [
+            "Enabled boundless customisation with cascading config files.",
+            "Included niche features for power users, like Git integration.",
+            "Added SVG support in terminal using Kitty graphics protocol."
+          ],
+          "technologies": [
+            {
+              "id": "rust",
+              "name": "Rust"
+            },
+            {
+              "id": "yaml",
+              "name": "YAML"
+            }
+          ],
+          "tags": ["resume_pdf"]
+        },
+        {
+          "id": "documentation",
+          "name": "Documentation",
+          "role": "Author",
+          "summary": "Thorough end-user documentation for all features.",
+          "description": "<code>pls</code> is accompanied by thorough documentation describing all the options, their behaviour and quirks, with adequate examples.",
+          "highlights": [
+            "Deployed as a static site with an automated CI + CD pipeline.",
+            "Created a pipeline to generate examples for every release."
+          ],
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
+            },
+            {
+              "id": "mdx",
+              "name": "MDX"
+            },
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "astro",
+              "name": "Astro"
+            },
+            {
+              "id": "starlight",
+              "name": "Starlight"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "recivi",
+      "name": "Récivi",
+      "url": {
+        "dest": "https://recivi.pages.dev",
+        "label": "Recivi homepage"
+      },
+      "summary": "A new kind of résumé for computers and humans, in that order.",
+      "projects": [
+        {
+          "id": "schema",
+          "name": "Schema",
+          "url": {
+            "dest": "https://recivi.pages.dev/",
+            "label": "Récivi homepage"
+          },
+          "role": "Creator",
+          "summary": "A new kind of résumé for computers and humans, in that order.",
+          "highlights": [
+            "Developed the JSON schema and TypeScript interfaces.",
+            "This résumé was made with Récivi as a proof-of-concept!"
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "json",
+              "name": "JSON"
+            },
+            {
+              "id": "zod",
+              "name": "Zod"
+            }
+          ],
+          "tags": ["resume_pdf"]
+        },
+        {
+          "id": "documentation",
+          "name": "Documentation",
+          "role": "Creator",
+          "summary": "A new kind of résumé for computers and humans, in that order."
+        },
+        {
+          "id": "website",
+          "name": "Website",
+          "role": "Creator",
+          "summary": "Contains my homepage, interactive résumé and digital garden.",
+          "highlights": [
+            "Deployed as a static site with an automated CI + CD pipeline.",
+            "Used low-tech frameworks to ship negligible JS to the client."
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript",
+              "shortName": "TS"
+            },
+            {
+              "id": "astro",
+              "name": "Astro"
+            },
+            {
+              "id": "tailwindcss",
+              "name": "Tailwind"
+            },
+            {
+              "id": "alpinedotjs",
+              "name": "Alpine"
+            },
+            {
+              "id": "recivi",
+              "name": "Récivi",
+              "url": {
+                "dest": "https://recivi.pages.dev/",
+                "label": "Récivi homepage"
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
+            }
+          ],
+          "tags": ["resume_pdf"]
+        }
+      ]
+    },
+    {
+      "id": "2fac",
+      "name": "2Fac",
+      "url": {
+        "dest": "https://2fac.vercel.app",
+        "label": "2Fac homepage"
+      },
+      "summary": "An open-source web-based 2FA app that syncs via GitHub.",
+      "projects": [
+        {
+          "id": "totp_pwa",
+          "name": "TOTP PWA",
+          "role": "Creator",
+          "summary": "Time-based one-time password generator with clean UI.",
+          "highlights": [
+            "Used native UI elements for iOS and Android for cohesive UX.",
+            "Added data back up and sync via a private GitHub repo.",
+            "Provided offline functionality and data import/export."
+          ],
+          "technologies": [
+            {
+              "id": "typescript",
+              "name": "TypeScript"
+            },
+            {
+              "id": "ionic",
+              "name": "Ionic"
+            },
+            {
+              "id": "vuedotjs",
+              "name": "Vue"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "skyscraper",
+      "name": "Skyscraper",
+      "summary": "Scrape everything.",
+      "projects": [
+        {
+          "id": "website",
+          "name": "Dubai properties",
+          "role": "Creator",
+          "summary": "Scrapes and aggregates information about Dubai properties.",
+          "technologies": [
+            {
+              "id": "python",
+              "name": "Python"
+            },
+            {
+              "id": "django",
+              "name": "Django"
+            },
+            {
+              "id": "htmx",
+              "name": "htmx"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
