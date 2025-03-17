@@ -11,16 +11,16 @@ ogImage:
 import ContactList from '@/components/ContactList.astro'
 import Kaomoji from '@/components/Kaomoji.astro'
 
-import data from '@/stores/resume-data.json'
+import recivi from '@/stores/resume-data.json'
 import { addressDisplay, labelsDisplay } from '@/utils/recivi'
 
-export const { origin, residence, labels } = data.bio
+export const { origin, residence, labels } = recivi.bio
 
 <h1 className="sr-only">About</h1>
 <Kaomoji />
 
 Hi friend, I am **{
-	data.bio.name
+	recivi.bio.name
 }**, {
 	labels && labelsDisplay(labels)
 } {
