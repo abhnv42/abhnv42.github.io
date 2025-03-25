@@ -1,8 +1,4 @@
 body {
-    background-color: #000;
-    color: #f0ead6;
-}
-
-a {
-    color: #00ff00;
+    font-family: Verdana;
+    text-rendering: optimizeSpeed;
 }
